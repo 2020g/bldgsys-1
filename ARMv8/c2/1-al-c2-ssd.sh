@@ -1,8 +1,8 @@
 # see https://archlinuxarm.org/platforms/armv8/amlogic/odroid-c2
 echo "Micro SD and eMMC Creation on Odroid-C2"
 echo "Run this script as root only."
-echo "You can hit Ctrl+c in next 10 seconds if you don't want to continue."
-sleep 10
+echo "You can hit Ctrl+c in next 5 seconds if you don't want to continue."
+sleep 5
 
 umount /dev/sdd1
 
