@@ -14,8 +14,14 @@ sudo hostnamectl set-hostname FM-BldgSys-E0000
 sudo pacman -S --noconfirm xorg-xinit 
 sudo pacman -S --noconfirm xorg-server 
 sudo pacman -S --noconfirm xfce4
+sudo pacman -S --noconfirm xfce4-goodies
 sudo pacman -S --noconfirm lightdm
 sudo pacman -S --noconfirm lightdm-gtk-greeter
+sudo pacman -Sy --noconfirm base-devel
+sudo pacman -S --noconfirm packer
+sudo pacman -S --noconfirm pluma
+sudo pacman -S --noconfirm xarchiver
+sudo pacman -S --noconfirm chromium
 cd /etc/lightdm
 sudo wget -N https://raw.githubusercontent.com/2020m/bldgsys/master/lightdm.conf
 sudo systemctl enable lightdm.service
