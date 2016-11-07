@@ -11,7 +11,6 @@ sudo localedef -f UTF-8 -i en_US en_US.UTF-8
 sudo hostnamectl set-hostname FM-BldgSys-E0000
 sudo pacman -S --noconfirm xorg-xinit 
 sudo pacman -S --noconfirm xorg-server 
-sudo pacman -S --noconfirm xf86-video-odroid-c2
 sudo pacman -S --noconfirm xfce4
 sudo pacman -S --noconfirm lightdm
 sudo pacman -S --noconfirm lightdm-gtk-greeter
